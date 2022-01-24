@@ -8,6 +8,7 @@ body {
 }
 
 .header {
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -16,9 +17,11 @@ body {
   display: inline-block;
 }
 
- .logo {
-   padding: 40px 0;
- }
+.logo {
+   width: 190px;
+   height: 35px;
+background: url('img/logo.svg')
+}
 
  .menu {
    display: flex;
@@ -32,7 +35,6 @@ body {
  .menu_item:last-child {
    padding-right: 0;
  }
-
 
 .main_title {
   font-family: Roboto
