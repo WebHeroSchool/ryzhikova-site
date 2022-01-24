@@ -1,3 +1,41 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin:auto;
+  width: 80%;
+}
+
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo, .menu {
+  display: inline-block;
+}
+
+.logo {
+   width: 190px;
+   height: 35px;
+background: url('img/logo.svg')
+}
+
+ .menu {
+   display: flex;
+   align-items: center;
+ }
+
+ .menu_item {
+   padding: 0 13px;
+ }
+
+ .menu_item:last-child {
+   padding-right: 0;
+ }
+
 .main_title {
   font-family: Roboto
 }
