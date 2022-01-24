@@ -1,22 +1,22 @@
-.body{
+body {
   margin: 0;
 }
 
-.wrapper{
+.wrapper {
   margin:auto;
   width: 80%;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
 }
 
-.logo, .menu{
+.logo, .menu {
   display: inline-block;
 }
 
- .logo{
+ .logo {
    padding: 40px 0;
  }
 
